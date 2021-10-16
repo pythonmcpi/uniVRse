@@ -1,0 +1,6 @@
+@echo off
+REM Ensure current directory is the correct directory.
+cd /D "%~dp0"
+
+REM Launch. Assumes that lovr.exe is in a specific location.
+..\\lovr-0.15.0-win64\\lovr.exe --console . || pause
